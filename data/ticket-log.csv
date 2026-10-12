@@ -1,0 +1,96 @@
+ticket_id,created,requester,channel,category,summary,device,app_version,mins_before_session,first_reply_mins,resolution_note,reopened
+T-1001,2026-07-06 16:58,member,chat,video,Member can't join video session,web (phone),,-3,40,Member gave up before reply; therapist rescheduled.,N
+T-1002,2026-07-06 18:52,member,chat,video,Member can't join video session,web (phone),,4,12,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1003,2026-07-07 18:34,therapist,chat,video,Member can't join video session,web (phone),,8,40,Member gave up before reply; therapist rescheduled.,N
+T-1004,2026-07-08 10:12,therapist,chat,video,Member can't join video session,web (phone),,-3,12,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1005,2026-07-09 09:58,therapist,email,booking,Session time looks wrong,Android app,4.1.3,,50,No slots visible: therapist availability not set for next month. Therapist updated.,N
+T-1006,2026-07-09 13:03,member,email,login,Not receiving login code,iOS app,4.1.3,,620,Code arrived after ~10 min; member had already requested several. Advised to wait for latest code.,N
+T-1007,2026-07-09 08:58,therapist,email,other,Need a receipt,iOS app,4.1.3,,200,Asked for a receipt for a past session. Passed to finance.,N
+T-1008,2026-07-09 17:34,member,chat,video,Member can't join video session,web (phone),,-3,6,Camera permission denied in phone browser settings. Walked through enabling - joined.,N
+T-1009,2026-07-10 09:52,member,email,login,Not receiving login code,iOS app,4.1.3,,620,"SMS code not received - number on account out of date. Identity verified, number updated.",N
+T-1010,2026-07-13 09:21,member,email,other,Need a receipt,web (desktop),,,90,Notification sounds not working. Phone in Do Not Disturb - resolved.,N
+T-1011,2026-07-13 16:47,member,chat,video,Member can't join video session,web (phone),,-6,40,Member gave up before reply; therapist rescheduled.,N
+T-1012,2026-07-13 12:34,member,chat,video,Member can't join video session,web (phone),,25,12,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1013,2026-07-15 09:03,member,chat,booking,Need to move a session,iOS app,4.1.3,,10,No slots visible: therapist availability not set for next month. Therapist updated.,N
+T-1014,2026-07-15 07:03,member,email,login,Not receiving login code,iOS app,4.1.3,,900,"SMS code not received - number on account out of date. Identity verified, number updated.",N
+T-1015,2026-07-15 10:47,member,chat,video,Member can't join video session,web (phone),,2,12,Camera permission denied in phone browser settings. Walked through enabling - joined.,N
+T-1016,2026-07-17 17:21,therapist,chat,booking,Session time looks wrong,web (desktop),,,10,Member abroad; session times shown in device time zone. Explained - no fault.,N
+T-1017,2026-07-17 13:34,member,email,video,Member can't join video session,web (phone),,-3,55,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1018,2026-07-17 18:21,therapist,chat,video,Member can't join video session,web (phone),,4,12,Camera permission denied in phone browser settings. Walked through enabling - joined.,N
+T-1019,2026-07-17 15:03,member,email,video,Member can't join video session,web (phone),,8,55,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1020,2026-07-20 19:47,therapist,email,booking,Session time looks wrong,Android app,4.1.3,,130,Asked to move a session within 24h - passed to clinical operations.,N
+T-1021,2026-07-20 08:21,member,email,other,Not getting notifications,iOS app,4.1.3,,200,Password reset email in spam folder. Found - resolved.,N
+T-1022,2026-07-20 19:58,member,chat,video,Member can't join video session,web (phone),,12,6,Camera permission denied in phone browser settings. Walked through enabling - joined.,N
+T-1023,2026-07-20 15:34,member,email,video,Member can't join video session,web (phone),,-6,38,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1024,2026-07-21 13:21,member,email,video,Member can't join video session,web (phone),,8,140,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1025,2026-07-23 10:03,member,email,login,Not receiving login code,iOS app,4.1.3,,120,Non-UK mobile number; codes not delivered. Escalated to engineering.,Y
+T-1026,2026-07-23 09:21,member,email,video,Member can't join video session,web (phone),,-6,140,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1027,2026-07-23 19:52,member,email,video,Member can't join video session,web (phone),,-3,140,Camera permission denied in phone browser settings. Walked through enabling - joined.,N
+T-1028,2026-07-24 13:12,member,email,login,Not receiving login code,Android app,4.2.0,,45,Non-UK mobile number; codes not delivered. Escalated to engineering.,Y
+T-1029,2026-07-24 13:34,colleague,email,other,Password reset email not arriving,web (desktop),,,200,Password reset email in spam folder. Found - resolved.,N
+T-1030,2026-07-24 08:03,partner,email,reports,Progress report PDF is blank,web (desktop),,,180,Partner P-07 report PDF opens blank. Regenerated and re-shared in portal - OK.,N
+T-1031,2026-07-27 16:34,member,chat,booking,Need to move a session,Android app,4.1.3,,130,Member abroad; session times shown in device time zone. Explained - no fault.,N
+T-1032,2026-07-27 15:12,member,chat,video,Member can't join video session,web (phone),,-3,40,Member gave up before reply; therapist rescheduled.,N
+T-1033,2026-07-27 09:58,member,chat,video,Member can't join video session,web (phone),,4,6,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1034,2026-07-28 15:12,therapist,chat,video,Member can't join video session,web (phone),,8,40,Member gave up before reply; therapist rescheduled.,N
+T-1035,2026-07-29 08:03,member,email,login,Not receiving login code,web (desktop),,,620,Non-UK mobile number; codes not delivered. Escalated to engineering.,Y
+T-1036,2026-07-30 15:12,member,email,login,Not receiving login code,web (desktop),,,900,"SMS code not received - number on account out of date. Identity verified, number updated.",N
+T-1037,2026-07-30 13:58,member,email,video,Member can't join video session,web (phone),,-6,55,Camera permission denied in phone browser settings. Walked through enabling - joined.,N
+T-1038,2026-07-31 08:34,colleague,email,other,Need a receipt,web (desktop),,,200,Password reset email in spam folder. Found - resolved.,N
+T-1039,2026-07-31 17:47,therapist,chat,video,Member can't join video session,web (phone),,25,4,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1040,2026-08-03 09:12,member,chat,video,Member can't join video session,web (phone),,-3,12,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1041,2026-08-03 19:03,member,email,video,Member can't join video session,web (phone),,2,95,Member gave up before reply; therapist rescheduled.,N
+T-1042,2026-08-04 15:47,member,email,video,Member can't join video session,web (phone),,2,210,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1043,2026-08-05 15:12,member,email,login,Not receiving login code,Android app,4.1.3,,620,"SMS code not received - number on account out of date. Identity verified, number updated.",N
+T-1044,2026-08-05 12:34,therapist,email,other,Need a receipt,web (desktop),,,200,Password reset email in spam folder. Found - resolved.,N
+T-1045,2026-08-06 08:12,therapist,email,booking,Session time looks wrong,iOS app,4.1.3,,130,Member abroad; session times shown in device time zone. Explained - no fault.,N
+T-1046,2026-08-07 08:34,member,email,booking,Need to move a session,web (desktop),,,240,Member abroad; session times shown in device time zone. Explained - no fault.,N
+T-1047,2026-08-07 09:12,therapist,chat,video,Member can't join video session,web (phone),,12,12,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1048,2026-08-07 12:12,member,email,video,Member can't join video session,web (phone),,-3,95,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1049,2026-08-10 10:47,therapist,email,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,-4,120,Stuck on 'Connecting...' after app update. Joined from laptop instead.,N
+T-1050,2026-08-10 15:47,member,email,video,Member can't join video session,web (phone),,-3,38,Camera permission denied in phone browser settings. Walked through enabling - joined.,N
+T-1051,2026-08-10 08:03,member,email,video,Member can't join video session,web (phone),,-6,55,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1052,2026-08-11 19:12,therapist,chat,booking,Need to move a session,web (desktop),,,50,Asked to move a session within 24h - passed to clinical operations.,N
+T-1053,2026-08-11 16:34,member,email,login,Not receiving login code,web (desktop),,,45,Code arrived after ~10 min; member had already requested several. Advised to wait for latest code.,N
+T-1054,2026-08-11 07:58,member,email,login,Not receiving login code,web (desktop),,,620,"SMS code not received - number on account out of date. Identity verified, number updated.",N
+T-1055,2026-08-11 09:03,member,email,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,-4,180,Stuck on 'Connecting...'. Reinstall didn't help. Workaround: joined via web browser.,N
+T-1056,2026-08-11 08:21,member,email,video,Member can't join video session,web (phone),,-6,95,Member gave up before reply; therapist rescheduled.,N
+T-1057,2026-08-12 09:47,member,email,other,Password reset email not arriving,web (desktop),,,200,Notification sounds not working. Phone in Do Not Disturb - resolved.,N
+T-1058,2026-08-13 08:12,partner,email,reports,Progress report PDF is blank,web (desktop),,,400,Partner P-07 report PDF opens blank. Regenerated and re-shared in portal - OK.,Y
+T-1059,2026-08-13 07:12,member,email,video,Member can't join video session,web (phone),,4,210,Camera permission denied in phone browser settings. Walked through enabling - joined.,N
+T-1060,2026-08-14 09:34,member,email,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,3,60,Stuck on 'Connecting...' after app update. Joined from laptop instead.,N
+T-1061,2026-08-14 07:03,member,chat,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,10,8,Stuck on 'Connecting...'. Reinstall didn't help. Workaround: joined via web browser.,N
+T-1062,2026-08-14 13:03,therapist,chat,video,Member can't join video session,web (phone),,12,40,Member gave up before reply; therapist rescheduled.,N
+T-1063,2026-08-14 15:21,therapist,chat,video,Member can't join video session,web (phone),,2,6,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1064,2026-08-17 09:58,member,email,login,Not receiving login code,web (desktop),,,620,Code arrived after ~10 min; member had already requested several. Advised to wait for latest code.,N
+T-1065,2026-08-17 07:58,member,chat,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,-4,14,"Video stuck connecting, audio fine. Session continued audio-only.",N
+T-1066,2026-08-17 09:34,member,chat,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,-4,14,Stuck on 'Connecting...' after app update. Joined from laptop instead.,N
+T-1067,2026-08-17 15:52,member,email,video,Member can't join video session,web (phone),,2,95,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1068,2026-08-18 13:12,member,email,login,Not receiving login code,iOS app,4.1.3,,620,"SMS code not received - number on account out of date. Identity verified, number updated.",N
+T-1069,2026-08-18 09:21,member,email,video,Member can't join video session,web (phone),,8,55,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1070,2026-08-18 09:12,member,chat,video,Member can't join video session,web (phone),,-6,40,Member gave up before reply; therapist rescheduled.,N
+T-1071,2026-08-19 08:34,therapist,email,booking,Session time looks wrong,iOS app,4.1.3,,10,Member abroad; session times shown in device time zone. Explained - no fault.,N
+T-1072,2026-08-19 08:12,therapist,email,other,Need a receipt,web (desktop),,,90,Password reset email in spam folder. Found - resolved.,N
+T-1073,2026-08-19 09:52,member,chat,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,10,14,Stuck on 'Connecting...'. Reinstall didn't help. Workaround: joined via web browser.,N
+T-1074,2026-08-19 17:52,therapist,chat,video,Member can't join video session,web (phone),,12,40,Member gave up before reply; therapist rescheduled.,N
+T-1075,2026-08-20 08:21,therapist,chat,video,Member can't join video session,web (phone),,-2,40,Member gave up before reply; therapist rescheduled.,N
+T-1076,2026-08-21 18:52,colleague,email,other,Not getting notifications,web (desktop),,,200,Notification sounds not working. Phone in Do Not Disturb - resolved.,N
+T-1077,2026-08-21 19:03,member,chat,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,-4,5,Stuck on 'Connecting...'. Reinstall didn't help. Workaround: joined via web browser.,N
+T-1078,2026-08-21 17:21,member,email,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,6,180,Stuck on 'Connecting...'. Reinstall didn't help. Workaround: joined via web browser.,N
+T-1079,2026-08-21 17:03,therapist,chat,video,Member can't join video session,web (phone),,2,12,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1080,2026-08-24 07:34,member,chat,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,10,5,"Video stuck connecting, audio fine. Session continued audio-only.",N
+T-1081,2026-08-24 18:34,member,chat,video,Member can't join video session,web (phone),,4,6,Camera permission denied in phone browser settings. Walked through enabling - joined.,N
+T-1082,2026-08-25 09:52,therapist,chat,booking,Need to move a session,web (desktop),,,10,No slots visible: therapist availability not set for next month. Therapist updated.,N
+T-1083,2026-08-25 09:58,member,chat,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,-4,14,Stuck on 'Connecting...'. Reinstall didn't help. Workaround: joined via web browser.,N
+T-1084,2026-08-25 10:21,therapist,chat,video,Member can't join video session,web (phone),,4,6,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1085,2026-08-26 13:03,member,email,login,Not receiving login code,Android app,4.2.0,,45,"SMS code not received - number on account out of date. Identity verified, number updated.",N
+T-1086,2026-08-26 17:34,partner,email,reports,Progress report PDF is blank,web (desktop),,,400,Partner P-07 report PDF opens blank. Regenerated and re-shared in portal - OK.,Y
+T-1087,2026-08-26 18:47,member,email,video,Member can't join video session,web (phone),,25,140,Member opened session link from email app; in-app browser blocked camera. Asked to open in Safari/Chrome - joined.,N
+T-1088,2026-08-27 15:12,therapist,email,booking,Session time looks wrong,web (desktop),,,10,No slots visible: therapist availability not set for next month. Therapist updated.,N
+T-1089,2026-08-27 08:58,colleague,email,other,Password reset email not arriving,iOS app,4.1.3,,90,Asked for a receipt for a past session. Passed to finance.,N
+T-1090,2026-08-27 09:03,member,chat,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,10,8,Stuck on 'Connecting...' after app update. Joined from laptop instead.,N
+T-1091,2026-08-28 08:47,member,email,login,Not receiving login code,web (desktop),,,45,Code arrived after ~10 min; member had already requested several. Advised to wait for latest code.,N
+T-1092,2026-08-28 09:34,therapist,email,video,Video stuck on 'Connecting...' in app,Android app,4.2.0,-4,60,Stuck on 'Connecting...'. Reinstall didn't help. Workaround: joined via web browser.,N
+T-1093,2026-08-28 13:52,member,email,video,Member can't join video session,web (phone),,4,55,Member gave up before reply; therapist rescheduled.,N
+T-1094,2026-08-28 10:34,member,chat,video,Member can't join video session,web (phone),,8,4,Link opened inside email app. Copied link into Chrome - joined.,N
+T-1095,2026-08-28 19:21,member,chat,video,Member can't join video session,web (phone),,2,4,Link opened inside email app. Copied link into Chrome - joined.,N
