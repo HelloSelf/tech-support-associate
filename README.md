@@ -108,7 +108,7 @@ You don't need to prepare slides. Have a view we can explore together on:
 
 1. Click **"Use this template"** at the top of this repo to create your own copy.
 2. Add your work on a branch and open a **pull request**.
-3. Share the link with **[@reviewer-1]** and **[@reviewer-2]**.
+3. Share the link with **@asmt3** and **@Joby-helloself**.
 
 Not used GitHub before? That's fine. Send us a document or link (Google Doc, Figma, PDF, a short
 screen recording) to **[recruiting contact]** instead. We'll treat it exactly the same.
