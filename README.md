@@ -1,183 +1,162 @@
-# HelloSelf · Technical Support & Platform Improvement Associate — Take-Home Exercise
+# HelloSelf · Technical Support & Platform Improvement Associate — Take-Home Task
 
-**Three tickets, one pattern, one small improvement**
+**Where people get stuck**
 
-Thanks for taking the time to apply. This exercise should take **about 90 minutes**.
-It is a starting point for a conversation, not a test with one right answer. We are far
-more interested in how you think, what you notice and how you explain your choices than
-in anything polished.
+Thanks for taking the time to apply. This task is deliberately small. What you build is a
+starting point for a conversation, not the thing we're grading. We're far more interested in
+what you notice, how you reason and why you made the choices you made than in anything
+polished.
 
-You do **not** need to know how to code, have worked in support or have used our systems
-before. Everything you need is in this pack.
+In short: use HelloSelf as a member, find **one specific moment** where someone is likely to get
+stuck, confused or need to contact support, build a small working version of something better,
+and come ready to talk about it: why that moment, why you built it the way you did and how you'd
+know it helped.
 
-In short: handle three support tickets, look at a few weeks of (made-up) ticket history,
-spot a problem worth fixing, build one small thing that helps, and then come and talk to
-us about why you built it the way you did.
+You do **not** need to know how to code or to have worked in technology, healthcare or support.
 
 ---
 
 ## About HelloSelf
 
-HelloSelf delivers therapy through its own clinic and through a platform that other clinics
-also use. There are four groups of people who might contact the Technical Support Team:
+HelloSelf delivers therapy through its own clinic and through a platform that other clinics also
+use. Members are matched with qualified therapists for one-to-one sessions over video, and they
+use our mobile app and website to sign up, book, join sessions, fill in questionnaires and keep in
+touch between sessions.
 
 | Who | What they do on the platform |
 |---|---|
-| **Members** | People having therapy. They book sessions, join video calls and fill in questionnaires, using the mobile app (iOS/Android) or a web browser. |
-| **Therapists** | Qualified clinicians. They run video sessions, write notes and produce progress reports. |
-| **Partners** | Organisations that refer members to us, such as insurers and employers. They use a partner portal to make referrals and receive progress reports. |
-| **Colleagues** | HelloSelf staff, including **clinical operations**, the team responsible for members' care, bookings and anything clinical. |
+| **Members** | People having therapy. They sign up, book sessions, join video calls and fill in questionnaires. |
+| **Therapists** | Qualified clinicians. They run sessions, write notes and produce progress reports. |
+| **Partners** | Organisations, such as insurers and employers, that refer members to us and receive reports. |
+| **Colleagues** | HelloSelf staff, including clinical operations, who look after members' care and bookings. |
 
-Two things make support here different from most help desks:
+## The problem space
+
+The Technical Support Team helps all of these people keep sessions and services running. Support
+tickets are a **symptom**: most of them start at a moment where the product didn't make the next
+step clear, didn't explain what had gone wrong, or left someone with nowhere to turn.
+
+Two things make those moments matter more here than in most products:
 
 - **Time matters.** A video session that doesn't start on time is a missed hour of therapy for
   someone who may have been building up to it all week.
-- **The information is sensitive.** Tickets can involve health information. Who you share
-  things with, and how, matters as much as fixing the problem.
+- **People are often anxious.** Someone stuck on a login screen ten minutes before their session
+  isn't in a frame of mind to read a long help article.
+
+Part of this role is fixing tickets. The other part is making the product better so those
+tickets don't happen in the first place. This task is about that second part.
 
 ---
 
 ## Your task
 
-### Part 1 · Three tickets (about 45 minutes)
+### 1. Find one specific moment
 
-It is **08:50 on a Monday**. You've just logged on, and these three tickets are in your queue.
-Support hours are 08:00–18:00, Monday to Friday. All three tickets are fictional, and any
-details in square brackets have been anonymised.
+Register your own member account and explore HelloSelf, on **mobile** if you can. Try the things
+a new member would do. Find a screen, flow or message where you think someone is likely to get
+stuck, misunderstand what's happening, or end up contacting support. It might also be somewhere
+that, if something went wrong, our support team would struggle to work out what had happened.
 
-> **Ticket A**: from a therapist, via live chat, received **08:47 today**
->
-> Hi, my 9am member says they're stuck on "Waiting for your therapist". I'm already in the
-> session and can see the room, and my camera's on. They've tried twice. They're quite
-> anxious about today's session — can someone help quickly please?
-> — [Therapist]
+We're deliberately not telling you where to look: spotting the right moment is part of what we're
+assessing.
 
-> **Ticket B**: from a member, via email, received **22:14 last night (Sunday)**
->
-> Subject: can't get in
->
-> I've been trying to log in for 2 days and it keeps asking for a code but nothing comes
-> through. I got a new phone last month. I need to book my next session because I've had a
-> really hard week and I don't think I can wait much longer to talk to someone. Can you just
-> change my number to 07700 900123? Thanks
-> — [Member]
+**Getting the app:**
+- iOS: https://apps.apple.com/gb/app/helloself-therapy-coaching/id1515004784
+- Android: https://play.google.com/store/apps/details?id=com.helloself.mobilemember&hl=en_GB
 
-> **Ticket C**: from a partner, via email, received **16:40 last Friday**
->
-> Subject: Reports AGAIN
->
-> Hi, we still haven't received the October progress report for [member ref 4471]. Also,
-> two of last month's reports opened as completely blank pages. This is the third time this
-> has happened. Our case managers need these for authorisations by this Friday. Can you just
-> email them over to me directly?
-> — [Case manager], [Partner organisation P-07]
+**Please:**
+- **Don't book a real session** with a therapist or pay for anything. Stop at the point where
+  you'd have to.
+- **Don't contact our support team** as part of the task.
+- **Use made-up answers** in any questionnaires. Don't enter real health information about yourself.
 
-Please write:
+Write down briefly: what you expected to happen, what actually happened, who it affects, how
+often you'd guess it happens and how it could affect someone's therapy.
 
-1. **The order** you'd deal with them in, and why. Think about the effect on someone's therapy,
-   not only how loud or recent the ticket is.
-2. For **each** ticket:
-   - **Your first reply**, written exactly as you'd send it.
-   - **What you'd want to find out or check**, and how you'd check it. Turn the vague parts
-     into specific questions.
-   - **Who else you'd involve, if anyone**: clinical operations, engineering or someone else.
-     Say when and why.
-   - **Anything you would *not* do**, even though you were asked.
+### 2. Build one small thing
 
-You won't have access to any HelloSelf systems. Where you'd normally look something up, say
-what you'd look for and what each possible answer would tell you.
+Build a small version of your improvement that clearly connects to the moment you found. Pick
+whatever form suits you, for example:
 
-### Part 2 · Find a pattern and build one small thing (about 45 minutes)
+- a **clickable mockup or prototype** of the improved screen or flow (Figma, a web page, a no-code tool, slides)
+- the **rewritten screen**, with the exact words, buttons and error messages you'd use
+- an **in-app help** idea or help article, showing where it appears and when
+- a **tool for the support team** that would help them diagnose or fix this problem faster
+- a **bug report** for engineering with steps to reproduce it, the impact and a proposed fix
 
-This pack includes two files of **made-up** data:
+Mock the data and fake anything behind the scenes. It doesn't need to be connected to anything
+real or ready for production. Use any tool, language or AI assistant you like. **No code is
+required**, and if you do write code, we'll discuss it in the same way.
 
-- `data/ticket-log.csv` — 8 weeks of resolved support tickets (95 rows), as exported from our
-  help desk.
-- `data/weekly-sessions.csv` — how many therapy sessions were delivered each week, plus two
-  things that changed during that period.
+### 3. Come ready to talk about it
 
-Open them in any tool you like: a spreadsheet, a notebook, an AI assistant or pen and paper.
+You don't need to prepare slides. Have a view we can explore together on:
 
-1. **Find the pattern you think matters most.** What's causing repeat tickets? Who is affected,
-   and how much does it cost them? Give the evidence for your answer, not just the conclusion.
-2. **Build one small thing** that would help, and make sure it clearly connects to the pattern
-   you found. Use whatever form suits you. For example:
-   - a help article, a set of saved replies or a troubleshooting flowchart for the team
-   - a spreadsheet, dashboard or short analysis that someone could re-run next week
-   - a simple internal tool, form or checklist, built with or without code
-   - a small web page, script or prototype
-   - a write-up of a bug for engineering, with steps to reproduce it
-
-   It doesn't need to be finished or connected to anything real. Mock what you need.
-   **Something small and specific beats something broad and half-done.**
-3. **Say how you'd know whether it worked.** What would you measure, over what period, and what
-   result would make you change your mind?
-
-### Part 3 · Come ready to talk about it
-
-You don't need to prepare slides. We'll spend most of the conversation on **why you made the
-choices you made**, especially your technical choices. Have a view on:
-
-- **Why this tool or format** rather than the alternatives you considered.
-- **Who uses it and who looks after it.** What happens when it goes out of date or breaks?
-- **What data it touches.** Does it hold anything sensitive, and does it need to?
-- **What you'd do with another week**, and what you'd hand to engineering instead of building yourself.
-- **How you'd present it** at our fortnightly meeting with engineering, clinical operations and
-  product: the evidence, the proposal and what you'd ask them for.
+- **Why this moment** over the others you noticed.
+- **How you'd check it's a real problem** and not just something you happened to experience.
+  What evidence would you look for, and where?
+- **Your technical choices.** Why you built it this way, what you considered instead, and what a
+  full version would look like. Which parts would you build yourself, and which would you hand
+  to engineering?
+- **What could go wrong.** Who looks after it, what happens when it goes out of date or breaks,
+  and what information it touches.
+- **How you'd know it helped** a member or therapist, not just that it shipped.
 
 ---
 
 ## How to submit
 
-Send us one document containing your Part 1 answers and a short note on Part 2, plus whatever
-you built. That could be a file, a link, screenshots or a short screen recording, whichever is
-easiest. Use any format you're comfortable with (Google Doc, Word, PDF, a GitHub repo, etc.).
+1. Click **"Use this template"** at the top of this repo to create your own copy.
+2. Add your work on a branch and open a **pull request**.
+3. Share the link with **[@reviewer-1]** and **[@reviewer-2]**.
 
-In your Part 2 note, a few short paragraphs is plenty:
+Not used GitHub before? That's fine. Send us a document or link (Google Doc, Figma, PDF, a short
+screen recording) to **[recruiting contact]** instead. We'll treat it exactly the same.
 
-- **The pattern you chose and why** you chose it over the others you noticed.
+In your pull request or document, a few short paragraphs is plenty:
+
+- **The moment you chose and why.** Include screenshots if they help.
 - **What you built and what you deliberately left out.**
-- **One thing that surprised you or that you got wrong** along the way, including anything an AI
-  tool suggested that you didn't use.
+- **One thing your AI tooling got wrong**, or a suggestion you didn't take, and why. If you didn't
+  use AI, tell us about something that surprised you instead.
 
-Send it to **[recruiting contact]** by **[date]**.
+Please send it by **[date]**.
 
 ## Scope and effort
 
-**About 90 minutes in total.** If you hit 90 minutes, stop and write down what you'd do next.
-That list is useful to us, and we won't hold an unfinished build against you.
+**About 90 minutes, two hours at most.** Something small and specific beats something broad and
+half-finished. If you're tempted to build more, write it down as something to discuss instead.
 
 ## What we care about
 
-- **Turning vague into specific:** did you work out what's actually happening rather than guess?
-- **Calm, clear writing:** would your replies help someone who's stressed and short of time?
-- **Judgement:** do you put therapy first, know when to involve other people and take care with
-  sensitive information?
-- **Evidence:** can you show a pattern is real, and how you'd know a fix worked?
+- **User need over instructions:** did you find your own reason this is worth fixing?
+- **Turning vague into specific:** can you describe exactly what goes wrong, for whom and when?
+- **Judgement on scope:** something specific and finishable.
 - **Technical taste:** is what you built a sensible fit for the problem, the people who'll use it
-  and the person who'll maintain it? We value simple and appropriate over impressive.
+  and whoever has to maintain it? We value simple and appropriate over impressive.
+- **Care and evidence:** do you think about sensitive information, and about how you'd show it
+  actually helped?
 
 ## A note on using AI
 
-We use AI tools every day, and you're welcome to use them here, including for the build. We're
-assessing what AI can't do for you: what you notice, what you prioritise and how you check
-whether something is right. Please be ready to explain every decision as your own. Don't paste
-anything into an AI tool that you wouldn't paste into a real one at work. It's good practice
-even with made-up data, and we may ask you about it.
+We build with AI every day, and you're very welcome to use it here. We're assessing the part AI
+can't do for you: which moment matters, what to prioritise and how you'd know the result is
+right. Please be ready to explain every decision as your own.
 
 ## Adjustments
 
-If you'd like more time, a different format (for example, talking through Part 1 instead of
-writing it) or any other adjustment, just tell **[recruiting contact]**. You don't need to
-explain why.
+If you'd like more time, a different format (for example, talking it through instead of writing
+it) or any other adjustment, just tell **[recruiting contact]**. You don't need to explain why.
 
 ---
 
 ## The follow-up conversation
 
-It's a conversation, not a presentation to be graded. You'll start with a short walk-through of
-what you built, and then we'll follow wherever it leads: the tickets, the data, your technical
-choices and what you'd do next. Expect us to dig into the side you spent less time on. There
-are no trick questions. Think out loud, and feel free to change your mind.
+We'll then talk it through together. It's a conversation, not a presentation to be graded. Start
+with a short walk-through of what you found and what you built (screen-share, show us on your
+phone, whatever works), and then we'll follow wherever it leads: the product, your technical
+choices, what support would see and how you'd measure it. Expect us to dig into whichever side
+you spent less time on. There are no trick questions. Think out loud, and feel free to change
+your mind.
 
-Any questions about the exercise, just ask. Good luck.
+Any questions about the task, just reach out. Good luck, and have fun with it.
