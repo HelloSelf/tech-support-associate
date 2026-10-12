@@ -85,8 +85,14 @@ whatever form suits you, for example:
 - a **bug report** for engineering with steps to reproduce it, the impact and a proposed fix
 
 Mock the data and fake anything behind the scenes. It doesn't need to be connected to anything
-real or ready for production. Use any tool, language or AI assistant you like. **No code is
-required**, and if you do write code, we'll discuss it in the same way.
+real or ready for production. Use any tool, language or AI assistant you like. You don't need
+previous coding experience, and it's fine if an AI assistant wrote most of the code.
+
+**If you build something with code, you'll need to explain it.** In the follow-up we'll open
+it together and ask you to walk us through how it works: the main parts, what each one does, how
+they connect, where the data comes from and where it goes, and what you'd change to make it do
+something slightly different. You don't need to have written every line yourself, but you do need
+to understand how it's put together.
 
 ### 3. Come ready to talk about it
 
@@ -95,6 +101,8 @@ You don't need to prepare slides. Have a view we can explore together on:
 - **Why this moment** over the others you noticed.
 - **How you'd check it's a real problem** and not just something you happened to experience.
   What evidence would you look for, and where?
+- **The code you built, if any.** Be ready to talk us through how it's put together: its
+  structure, the important parts and how a change would ripple through it.
 - **Your technical choices.** Why you built it this way, what you considered instead, and what a
   full version would look like. Which parts would you build yourself, and which would you hand
   to engineering?
@@ -111,7 +119,7 @@ You don't need to prepare slides. Have a view we can explore together on:
 3. Share the link with **@asmt3** and **@Joby-helloself**.
 
 Not used GitHub before? That's fine. Send us a document or link (Google Doc, Figma, PDF, a short
-screen recording) to **[recruiting contact]** instead. We'll treat it exactly the same.
+screen recording) to **@asmt3** instead. We'll treat it exactly the same.
 
 In your pull request or document, a few short paragraphs is plenty:
 
@@ -134,6 +142,8 @@ half-finished. If you're tempted to build more, write it down as something to di
 - **Judgement on scope:** something specific and finishable.
 - **Technical taste:** is what you built a sensible fit for the problem, the people who'll use it
   and whoever has to maintain it? We value simple and appropriate over impressive.
+- **Understanding what you built:** can you explain how your code is structured, what each part
+  does and why it's built that way?
 - **Care and evidence:** do you think about sensitive information, and about how you'd show it
   actually helped?
 
@@ -141,19 +151,20 @@ half-finished. If you're tempted to build more, write it down as something to di
 
 We build with AI every day, and you're very welcome to use it here. We're assessing the part AI
 can't do for you: which moment matters, what to prioritise and how you'd know the result is
-right. Please be ready to explain every decision as your own.
+right. Please be ready to explain every decision as your own. That includes code: if an AI
+assistant wrote it, make sure you understand what it wrote before you send it.
 
 ## Adjustments
 
 If you'd like more time, a different format (for example, talking it through instead of writing
-it) or any other adjustment, just tell **[recruiting contact]**. You don't need to explain why.
+it) or any other adjustment, just tell **@asmt3**. You don't need to explain why.
 
 ---
 
 ## The follow-up conversation
 
 We'll then talk it through together. It's a conversation, not a presentation to be graded. Start
-with a short walk-through of what you found and what you built (screen-share, show us on your
+with a short walk-through of what you found and what you built, including a look inside any code (screen-share, show us on your
 phone, whatever works), and then we'll follow wherever it leads: the product, your technical
 choices, what support would see and how you'd measure it. Expect us to dig into whichever side
 you spent less time on. There are no trick questions. Think out loud, and feel free to change
