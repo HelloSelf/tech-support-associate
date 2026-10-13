@@ -135,6 +135,8 @@ Please send it by **[date]**.
 **About 90 minutes, two hours at most.** Something small and specific beats something broad and
 half-finished. If you're tempted to build more, write it down as something to discuss instead.
 
+If you feel you need any adjustments, let **@asmt3** know.
+
 ## What we care about
 
 - **User need over instructions:** did you find your own reason this is worth fixing?
@@ -153,11 +155,6 @@ We build with AI every day, and you're very welcome to use it here. We're assess
 can't do for you: which moment matters, what to prioritise and how you'd know the result is
 right. Please be ready to explain every decision as your own. That includes code: if an AI
 assistant wrote it, make sure you understand what it wrote before you send it.
-
-## Adjustments
-
-If you'd like more time, a different format (for example, talking it through instead of writing
-it) or any other adjustment, just tell **@asmt3**. You don't need to explain why.
 
 ---
 
