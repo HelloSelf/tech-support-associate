@@ -160,8 +160,14 @@ assistant wrote it, make sure you understand what it wrote before you send it.
 
 ## The follow-up conversation
 
-We'll then talk it through together. It's a conversation, not a presentation to be graded. Start
-with a short walk-through of what you found and what you built, including a look inside any code (screen-share, show us on your
+We'll then talk it through together. It's a conversation, not a presentation to be graded.
+
+**First, about 10 minutes on something live.** We'll play someone whose video call with us isn't
+working, and you lead: ask the questions, work out what could be causing it and talk us through
+what you'd try. Nothing to prepare. We're interested in how you narrow it down, not in whether
+you land on the answer.
+
+**Then your task.** Start with a short walk-through of what you found and what you built, including a look inside any code (screen-share, show us on your
 phone, whatever works), and then we'll follow wherever it leads: the product, your technical
 choices, what support would see and how you'd measure it. Expect us to dig into whichever side
 you spent less time on. There are no trick questions. Think out loud, and feel free to change
