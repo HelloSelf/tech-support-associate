@@ -7,10 +7,12 @@ starting point for a conversation, not the thing we're grading. We're far more i
 what you notice, how you reason and why you made the choices you made than in anything
 polished.
 
-In short: use HelloSelf as a member, find **one specific moment** where someone is likely to get
-stuck, confused or need to contact support, build a small working version of something better,
-and come ready to talk about it: why that moment, why you built it the way you did and how you'd
-know it helped.
+In short, there are two parts:
+
+1. **Prepare a support scenario:** how you'd work out why someone can't be seen or heard on a
+   video call.
+2. **Find one moment and build something small:** use HelloSelf as a member, find **one specific
+   moment** where someone is likely to get stuck, and make a small version of something better.
 
 You do **not** need to know how to code or to have worked in technology, healthcare or support.
 
@@ -44,21 +46,28 @@ Two things make those moments matter more here than in most products:
   isn't in a frame of mind to read a long help article.
 
 Part of this role is fixing tickets. The other part is making the product better so those
-tickets don't happen in the first place. This task is about that second part.
+tickets don't happen in the first place. This task touches on both.
 
 ---
 
 ## Your task
 
-### 1. Find one specific moment
+### 1. Prepare a support scenario
 
-Register your own member account and explore HelloSelf, on **mobile** if you can. Try the things
-a new member would do. Find a screen, flow or message where you think someone is likely to get
-stuck, misunderstand what's happening, or end up contacting support. It might also be somewhere
-that, if something went wrong, our support team would struggle to work out what had happened.
+Our single biggest product is hosting online therapy, where we act as the intermediary between a
+therapist and the member. These web calls are fairly standard, and one of our most common ticket
+issues is audio or video problems during a call.
 
-We're deliberately not telling you where to look: spotting the right moment is part of what we're
-assessing.
+**If one party contacts you to say that they cannot be seen or heard during a call, what are some
+steps you might take to identify a cause and a resolution?**
+
+Come ready to talk it through. Notes are fine; there's nothing to submit for this part.
+
+### 2. Find one moment and build something small
+
+Register your own member account and explore HelloSelf, on **mobile** if you can. Find a screen,
+flow or message where you think someone is likely to get stuck, misunderstand what's happening,
+or end up contacting support. We're deliberately not telling you where to look.
 
 **Getting the app:**
 - iOS: https://apps.apple.com/gb/app/helloself-therapy-coaching/id1515004784
@@ -70,45 +79,14 @@ assessing.
 - **Don't contact our support team** as part of the task.
 - **Use made-up answers** in any questionnaires. Don't enter real health information about yourself.
 
-Write down briefly: what you expected to happen, what actually happened, who it affects, how
-often you'd guess it happens and how it could affect someone's therapy.
+Then make a small version of your improvement, in whatever form suits you: a clickable mockup,
+the rewritten screen with the exact words you'd use, a help article, a small tool for the support
+team, or a bug report for engineering. Mock the data and fake anything behind the scenes. Use any
+tool or AI assistant you like; no coding experience is needed. If you do build something with
+code, be ready to walk us through how it's put together.
 
-### 2. Build one small thing
-
-Build a small version of your improvement that clearly connects to the moment you found. Pick
-whatever form suits you, for example:
-
-- a **clickable mockup or prototype** of the improved screen or flow (Figma, a web page, a no-code tool, slides)
-- the **rewritten screen**, with the exact words, buttons and error messages you'd use
-- an **in-app help** idea or help article, showing where it appears and when
-- a **tool for the support team** that would help them diagnose or fix this problem faster
-- a **bug report** for engineering with steps to reproduce it, the impact and a proposed fix
-
-Mock the data and fake anything behind the scenes. It doesn't need to be connected to anything
-real or ready for production. Use any tool, language or AI assistant you like. You don't need
-previous coding experience, and it's fine if an AI assistant wrote most of the code.
-
-**If you build something with code, you'll need to explain it.** In the follow-up we'll open
-it together and ask you to walk us through how it works: the main parts, what each one does, how
-they connect, where the data comes from and where it goes, and what you'd change to make it do
-something slightly different. You don't need to have written every line yourself, but you do need
-to understand how it's put together.
-
-### 3. Come ready to talk about it
-
-You don't need to prepare slides. Have a view we can explore together on:
-
-- **Why this moment** over the others you noticed.
-- **How you'd check it's a real problem** and not just something you happened to experience.
-  What evidence would you look for, and where?
-- **The code you built, if any.** Be ready to talk us through how it's put together: its
-  structure, the important parts and how a change would ripple through it.
-- **Your technical choices.** Why you built it this way, what you considered instead, and what a
-  full version would look like. Which parts would you build yourself, and which would you hand
-  to engineering?
-- **What could go wrong.** Who looks after it, what happens when it goes out of date or breaks,
-  and what information it touches.
-- **How you'd know it helped** a member or therapist, not just that it shipped.
+No slides needed. Have a view on **why this moment**, **why you built it this way** and **how
+you'd know it helped**.
 
 ---
 
@@ -125,29 +103,24 @@ In your pull request or document, a few short paragraphs is plenty:
 
 - **The moment you chose and why.** Include screenshots if they help.
 - **What you built and what you deliberately left out.**
-- **One thing your AI tooling got wrong**, or a suggestion you didn't take, and why. If you didn't
-  use AI, tell us about something that surprised you instead.
 
 Please send it by **[date]**.
 
 ## Scope and effort
 
-**About 90 minutes, two hours at most.** Something small and specific beats something broad and
-half-finished. If you're tempted to build more, write it down as something to discuss instead.
+**About 90 minutes in total, including preparing the scenario.** Something small and specific
+beats something broad and half-finished. If you're tempted to build more, write it down as
+something to discuss instead.
 
 If you feel you need any adjustments, let **@asmt3** know.
 
 ## What we care about
 
-- **User need over instructions:** did you find your own reason this is worth fixing?
-- **Turning vague into specific:** can you describe exactly what goes wrong, for whom and when?
-- **Judgement on scope:** something specific and finishable.
-- **Technical taste:** is what you built a sensible fit for the problem, the people who'll use it
-  and whoever has to maintain it? We value simple and appropriate over impressive.
-- **Understanding what you built:** can you explain how your code is structured, what each part
-  does and why it's built that way?
-- **Care and evidence:** do you think about sensitive information, and about how you'd show it
-  actually helped?
+- **Structured troubleshooting:** do you narrow a problem down with sensible questions and steps?
+- **User need over instructions:** did you find your own reason something is worth fixing?
+- **Judgement on scope:** something specific and finishable, simple and appropriate over
+  impressive.
+- **Care:** do you think about the people involved and their sensitive information?
 
 ## A note on using AI
 
@@ -162,15 +135,12 @@ assistant wrote it, make sure you understand what it wrote before you send it.
 
 We'll then talk it through together. It's a conversation, not a presentation to be graded.
 
-**First, about 10 minutes on something live.** We'll play someone whose video call with us isn't
-working, and you lead: ask the questions, work out what could be causing it and talk us through
-what you'd try. Nothing to prepare. We're interested in how you narrow it down, not in whether
-you land on the answer.
+**First, about 10 minutes on the support scenario.** Talk us through the steps you prepared. We
+may play the person whose call isn't working, so expect to lead the questions. We're interested
+in how you narrow it down, not in whether you land on one answer.
 
-**Then your task.** Start with a short walk-through of what you found and what you built,
-including a look inside any code (screen-share, show us on your phone, whatever works), and then
-we'll follow wherever it leads: the product, your technical choices, what support would see and
-how you'd measure it. Expect us to dig into whichever side you spent less time on. There are no
-trick questions. Think out loud, and feel free to change your mind.
+**Then the moment you found.** Show us what you found and what you built (screen-share, show us
+on your phone, whatever works), and we'll follow wherever it leads. There are no trick questions.
+Think out loud, and feel free to change your mind.
 
 Any questions about the task, just reach out. Good luck, and have fun with it.
