@@ -104,8 +104,6 @@ In your pull request or document, a few short paragraphs is plenty:
 - **The moment you chose and why.** Include screenshots if they help.
 - **What you built and what you deliberately left out.**
 
-Please send it by **[date]**.
-
 ## Scope and effort
 
 **About 90 minutes in total, including preparing the scenario.** Something small and specific
