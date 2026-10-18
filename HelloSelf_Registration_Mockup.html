@@ -1,0 +1,70 @@
+<!DOCTYPE HTML5>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; form-action 'none'; base-uri 'none'">
+  <title>HelloSelf registration improvement mockup</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <aside class="demo-note" aria-label="Prototype information">
+    <strong>Registration improvement prototype</strong>
+    <p>Fictional details only. This demo does not create accounts, save entries or send data.</p>
+    <p>Try deleting the last character of the confirmation password, then leave the field. Use Show to find the
+      difference and correct it.</p>
+  </aside>
+  <main>
+    <h1>HelloSelf.</h1>
+    <form id="registration-form" novalidate autocomplete="off">
+      <div class="field">
+        <label for="first-name">First Name</label>
+        <div class="input-row"><input id="first-name" name="first-name" value="John" required></div>
+      </div>
+      <div class="field">
+        <label for="last-name">Last Name</label>
+        <div class="input-row"><input id="last-name" name="last-name" value="Smith" required></div>
+      </div>
+      <div class="field">
+        <label for="email">Email Address</label>
+        <div class="input-row"><input id="email" name="email" type="email" value="john@example.com" required></div>
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <div class="input-row">
+          <input id="password" name="password" type="password" value="DemoPassword1!" required
+            autocomplete="new-password" spellcheck="false" autocapitalize="none">
+          <button class="visibility" type="button" data-field="password" aria-controls="password"
+            aria-label="Show password">Show</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="confirmation">Confirm Password</label>
+        <div class="input-row" id="confirmation-row">
+          <input id="confirmation" name="confirmation" type="password" value="DemoPassword1!" required
+            autocomplete="new-password" aria-describedby="mismatch-error" aria-invalid="false" spellcheck="false"
+            autocapitalize="none">
+          <button class="visibility" type="button" data-field="confirmation" aria-controls="confirmation"
+            aria-label="Show confirmation password">Show</button>
+        </div>
+        <div class="error" id="mismatch-error" aria-live="polite" aria-atomic="true"></div>
+      </div>
+      <label class="consent"><input type="checkbox" id="age" required checked><span>I confirm I am over 18 years
+          old.</span></label>
+      <label class="consent"><input type="checkbox" id="terms" required checked><span>I understand that HelloSelf will
+          get in touch with me regarding the services provided and I agree to the <span class="terms">terms and
+            conditions.</span></span></label>
+      <label class="consent"><input type="checkbox" id="marketing"><span>I'd like to be included in the HelloSelf
+          newsletter and be informed of any marketing activities related to their services.</span></label>
+      <button class="register" id="register" type="submit">Register</button>
+      <p class="result" id="result" role="status"></p>
+    </form>
+  </main>
+  <button class="reset" id="reset-demo" type="button">Reset demo</button>
+  <script src="script.js"></script>
+</body>
+
+</html>
